@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  myapi:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-24T08:38:21.768959618Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: 213b897288c71e1b38358c396a1550188af6499a04914d31ba3ab8620cb61154
+    name: myapi
+    type: application
+    urls:
+    - https://github.com/khchiang1121/k8s-summit-2024/releases/download/myapi-0.1.0/myapi-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-24T08:38:21.768971641Z"
